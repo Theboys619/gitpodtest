@@ -1,3 +1,4 @@
+// URL: https://theboys619.github.io/gitpodtest/scratcher.js
 (function(ext) {
     // Cleanup function when the extension is unloaded
     ext._shutdown = function() {};
