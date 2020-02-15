@@ -9,15 +9,15 @@
         return {status: 2, msg: 'Ready'};
     };
 
-    ext.testing = function() {
-      alert("WOW");
+    ext.testing = function(str) {
+      alert(str);
     }
 
 
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-          ['', 'test', 'testing']
+          ['', 'test %s', 'testing']
         ]
     };
 
