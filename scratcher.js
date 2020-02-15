@@ -8,9 +8,14 @@
         return {status: 2, msg: 'Ready'};
     };
 
+    ext.testing = function() {
+      alert("Test!");
+    }
+
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
+          ['', 'test', 'testing']
         ]
     };
 
